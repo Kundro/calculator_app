@@ -1,0 +1,14 @@
+D:\ANKO\cs_calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.exe
+D:\ANKO\cs_calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.deps.json
+D:\ANKO\cs_calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.json
+D:\ANKO\cs_calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.dev.json
+D:\ANKO\cs_calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.dll
+D:\ANKO\cs_calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.pdb
+D:\ANKO\cs_calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.AssemblyReference.cache
+D:\ANKO\cs_calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\ANKO\cs_calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfoInputs.cache
+D:\ANKO\cs_calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfo.cs
+D:\ANKO\cs_calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.CoreCompileInputs.cache
+D:\ANKO\cs_calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.dll
+D:\ANKO\cs_calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.pdb
+D:\ANKO\cs_calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.genruntimeconfig.cache
