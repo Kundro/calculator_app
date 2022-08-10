@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IlzCz6vPmZ+mhv/sKXCF/Wlk5ROKFlOAETm7XCktJg2VK9PSykrC2qw50FcgZfIzQ5Agf6cexEjf3pt5nX/FZQ==",
+  "dgSpecHash": "pqLp/LKcCkLiYrUmqM2yFyQAbtccKEoERnm+eb1X3uPHXvdlVW3Rw1+sZ06/jtjTQyZPgCDKYogmpawHVnzMTA==",
   "success": true,
   "projectFilePath": "D:\\ANKO\\cs_calculator\\Calculator\\Calculator\\Calculator.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.26\\microsoft.netcore.app.host.win-x64.3.1.26.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
