@@ -1,4 +1,4 @@
 # calculator_app
 Console Calculator Application
 
-![Coverage](https://raw.githubusercontent.com/Kundro/calculator_app/master/coverage_badge.svg?sanitize=true)
+[![codecov](https://codecov.io/gh/Kundro/calculator_app/branch/master/graph/badge.svg)](https://codecov.io/gh/Kundro/calculator_app)
