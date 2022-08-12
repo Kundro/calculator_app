@@ -18,7 +18,9 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v2
       with:
-        dotnet-version: 6.0.x
+        dotnet-version: |
+          3.1.x
+          6.0.x
         
     - name: Restore dependencies
       run: dotnet restore Calculator/Calculator.sln
@@ -27,9 +29,9 @@ jobs:
       run: dotnet build Calculator/Calculator.sln --no-restore
       
     - name: Test
-      run: dotnet test Calculator/Calculator.sln --configuration Release --no-build --verbosity normal --collect:"XPlat Code Coverage" --results-directory ./coverage
+      run: dotnet test Calculator/Calculator.sln --configuration Debug --no-build --verbosity normal --collect:"XPlat Code Coverage" --results-directory ./coverage
       
     - name: Codecov upload 
-      uses: codecov/codecov-action@v2
+      uses: codecov/codecov-action@v3
       with:
         token: ${{ secrets.CODECOV_TOKEN }}  
