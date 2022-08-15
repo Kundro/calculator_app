@@ -1,16 +1,19 @@
 ﻿using System;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace Calculator
 {
-    class Program
+    public  class Program
     {
         public IConsole MyConsole = new DefaultConsole();
         public static void Main(string[] args)
         {
-            RunCalculator();
+            Program program = new Program();
+            program.RunCalculator();
         }
 
-        private static void RunCalculator()
+        public void RunCalculator()
         {
             bool endApp = false;
             // Display title as the C# console calculator app.
@@ -56,19 +59,14 @@ namespace Calculator
 
                 string op = MyConsole.ReadLine();
 
-                try
+                
+                result = Calculator.DoOperation(cleanNum1, cleanNum2, op);
+                if (double.IsNaN(result))
                 {
-                    result = Calculator.DoOperation(cleanNum1, cleanNum2, op);
-                    if (double.IsNaN(result))
-                    {
-                        MyConsole.WriteLine("This operation will result in a mathematical error.\n");
-                    }
-                    else MyConsole.WriteLine("Your result: {0:0.##}\n", result);
+                    MyConsole.WriteLine("This operation will result in a mathematical error.\n");
                 }
-                catch (Exception e)
-                {
-                    MyConsole.WriteLine("Oh no! An exception occurred trying to do the math.\n - Details: " + e.Message);
-                }
+                else MyConsole.WriteLine("Your result: {0:0.##}\n", result);
+                
 
                 MyConsole.WriteLine("------------------------\n");
 
